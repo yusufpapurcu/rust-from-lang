@@ -4,11 +4,10 @@ If you've started to learn Rust and you've come from another language
 you're strong in it can feel foreign or different. For some it's the
 borrow checker, for others it's trying to apply OOP to things you
 wouldn't in Rust, or maybe you make sure to check for `null`/`nil`/`undefined`
-in other languages but `Option`/`Result` seem foreign in comparison.
+in other languages but `Option` seems foreign in comparison.
 That's where this project comes into play. If you look in the directory
-of the language you're familiar with you'll find examples and common
-patterns of the language you're used to and how to do it in a more Rust
-like way.
+of the language you're familiar with you'll find various Rust concepts
+explained in the language you know and how that translates to Rust.
 
 ## Contributing
 Are you a more seasoned Rust Lang user? Help write some articles for
@@ -27,30 +26,24 @@ issue is not already in there. If it's a duplicate the correct issue
 will be linked and your issue closed.
 
 ### Writing an Article
-You can take a look at the [first article](./Haskell/error-handling.md)
-written for an example of what the format is. In that article it was
-Error Handling in Haskell vs Rust. Each article follows a basic format:
+You can take a look at the [first article](./Haskell/using-result.md)
+written for an example of what the format is. In that article it shows
+you how to use the `Result` if you are coming from Haskell. Each article
+follows a basic format:
 
-1. The problem is introduced
-2. The language one is coming from and how it is normally done there is
-   explained
-3. The way one would do it in Rust
-4. Comparing the strengths of how Rust does it
-5. Comparing the weaknesses of how Rust does it
-6. Possible stumbling blocks while transitioning from one language to
-   Rust for this problem
+1. The Rust concept and what it solves is introduced
+2. The problem solved by the Rust concept is answered here with
+   an example from the language the user is coming from.
+3. The same example is then solved with Rust utilizing the concept
+   introduced before.
+4. The strengths and weakness of how Rust does it compared to the other
+   language is then discussed.
 
-It's a simple format but it provides a few useful things beyond
-onboarding new users. It allows for comparisons between Rust and other
-languages as well as being able to critically evaluate problems that
-might occur for transitioning from one language to another. In the
-example given above the mapping from Haskell to Rust is pretty much 1:1,
-but other things like [Free
-Monads](http://www.haskellforall.com/2012/06/you-could-have-invented-free-monads.html)
-would take more work to show how to do it in Rust, or it might not be
-something that should be done in Rust. This is where the stumbling
-blocks section comes into play. If you're used to one way it might be
-hard to switch to another and this addresses those concerns.
+It's a simple format that allows for comparisons between Rust and other
+languages. It also allows critical evaluation of problems that might occur
+while transitioning from a language to Rust. The code examples given
+also provide a spring board for new users to translate code they might
+have in another language as practice in using Rust.
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">

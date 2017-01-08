@@ -4,7 +4,7 @@ connection failed. Whatever the reason languages provide different ways
 to handle errors when they occur.
 
 ## The Haskell Way
-Haskell uses what's known as Monadic Error handling. It leverages it's
+Haskell uses what's known as Monadic Error handling. It leverages its
 powerful type system and pattern matching in order to handle errors as
 they occur. Haskell has a type called `Either`. It can either be a value
 with the `Right` result or the error is `Left` to another type.

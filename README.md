@@ -9,6 +9,12 @@ That's where this project comes into play. If you look in the directory
 of the language you're familiar with you'll find various Rust concepts
 explained in the language you know and how that translates to Rust.
 
+## External Resources
+If you look at the [External](./External.md) file you'll find resources
+for learning Rust coming from other languages. Some of these are simple
+comparisons while others are more in depth tutorials. If nothing in the
+current repo satisfies your needs it's recommended that you look there.
+
 ## Contributing
 Are you a more seasoned Rust Lang user? Help write some articles for
 languages you're also passionate about! Noticed an error? Open up an

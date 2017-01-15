@@ -4,6 +4,7 @@
 
 - [The Path to Rust](https://thesquareplanet.com/blog/the-path-to-rust/)
   by Jon Gjengset
+- [Coming to Rust from Ruby](https://blog.codeship.com/coming-rust-ruby/) by Daniel P. Clark
 
 ## C++
 - [Rust for C++ Programmers](https://github.com/nrc/r4cppp) by Nick Cameron

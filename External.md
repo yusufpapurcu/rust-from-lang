@@ -14,6 +14,7 @@
 ## Java
 - [Comparing Rust and
   Java](https://llogiq.github.io/2016/02/28/java-rust.html) by Llogiq
+- [Rusty Factory](https://cberhard.wordpress.com/2017/01/16/rusty-factory/): Translating the Java Factory pattern to Rust by cberhard
 
 ## JavaScript
 - [Rust for Node

@@ -145,5 +145,5 @@ sum is 328350
  - Rust does not have something akin to Go's goroutines for lightweight
    threading. Instead, users must use full-blown operating system
    threads. The cost of this can be ameliorated by using a [thread pool
-   library](https://crates.io/search?q=thread pool) which re-uses
+   library](https://crates.io/search?q=thread%20pool) which re-uses
    threads across many jobs.
